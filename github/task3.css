@@ -1,0 +1,30 @@
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;   
+  border: 2px solid #ff12c4;
+  border-radius: .5em;
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.child {
+  background-color: #f0bad5;
+  color: #da13c9;
+  padding: .5em;
+  width: 150px;
+}
+
+   
+   

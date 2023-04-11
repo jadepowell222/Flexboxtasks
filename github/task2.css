@@ -1,0 +1,32 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+ul {
+  max-width: 700px;
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #f0bad5;
+  border: 2px solid #ff12c4;
+  border-radius: .5em;
+  color:  #da13c9;
+  padding: .5em;
+}
+ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+  }
+  
+  li {
+  flex: 200px;
+  }
